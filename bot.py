@@ -14,7 +14,7 @@ from aiogram.types import (
 
 TOKEN = "8620057655:AAG1oMogyI46UKw7LQ4_yp2pHAEKwCTHc_w"
 
-CHANNEL_ID= -1003949179855
+CHANNEL_ID=-1003949179855
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
