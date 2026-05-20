@@ -17,7 +17,14 @@ TOKEN = "8620057655:AAG1oMogyI46UKw7LQ4_yp2pHAEKwCTHc_wА"
 GROUP_ID = -1003993795823
 SUPPORT_USERNAME = "@viksmuyk"
 
-bot = Bot(token=TOKEN, parse_mode=ParseMode.HTML)
+from aiogram.client.default import DefaultBotProperties
+
+bot = Bot(
+    token=TOKEN,
+    default=DefaultBotProperties(
+        parse_mode=ParseMode.HTML
+    )
+)
 dp = Dispatcher()
 
 db = sqlite3.connect("users.db")
