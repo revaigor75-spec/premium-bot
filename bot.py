@@ -12,7 +12,7 @@ from aiogram.types import (
     InlineKeyboardButton,
 )
 
-TOKEN = "8620057655:AAG1oMogyI46UKw7LQ4_yp2pHAEKwCTHc_wА"
+TOKEN = "8620057655:AAG1oMogyI46UKw7LQ4_yp2pHAEKwCTHc_w"
 
 GROUP_ID = -1003993795823
 SUPPORT_USERNAME = "@viksmuyk"
