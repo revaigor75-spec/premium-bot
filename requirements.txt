@@ -1,0 +1,8 @@
+aiogram==3.13.0
+aiohttp==3.10.10
+python-dotenv==1.0.1
+cryptography==43.0.1
+
+# Для лучшей совместимости на Railway
+setuptools
+wheel
